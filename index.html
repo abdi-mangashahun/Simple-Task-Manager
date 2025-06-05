@@ -1,3 +1,38 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <title>Simple Task Manager</title>
+</head>
+<body>
+  <div class="container">
+    <div class="stats-container">
+      <div class="details">
+        <h1>Simple Task Manager</h1>
+        <p>Keep it up</p>
+        <div id="progressBar">
+          <div id="progress"></div>
+        </div>
+      </div>
+      <div class="stats-number">
+        <p id="numbers">0/0</p>
+      </div>
+    </div>
+
+    <form>
+      <input id="taskInput" type="text" placeholder="What is to be done?" required />
+     
+      <button id="newTask" type="submit">+</button>
+    </form>
+
+    <ul class="task-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,10 +57,16 @@
     </div>
 
     <form>
-      <input id="taskInput" type="text" placeholder="What is to be done?" />
-     
+      <input id="taskInput" type="text" placeholder="What is to be done?" required />
       <button id="newTask" type="submit">+</button>
     </form>
+
+    <!-- Filter Buttons -->
+    <div class="filters">
+      <button onclick="setFilter('all')">All</button>
+      <button onclick="setFilter('completed')">Completed</button>
+      <button onclick="setFilter('pending')">Pending</button>
+    </div>
 
     <ul class="task-list"></ul>
   </div>

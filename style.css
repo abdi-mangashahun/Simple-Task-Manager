@@ -12,6 +12,36 @@
   --teal: #24feee;
 }
 
+.filters {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.filters button {
+  flex: 1;
+  background-color: black;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.filters button:hover {
+  background-color: var(--secondaryBackground);
+  color: #fff;
+}
+
+.filters button.active {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
 body {
   background-color: var(--background);
   color: var(--text);
