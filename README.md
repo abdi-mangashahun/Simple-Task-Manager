@@ -1,53 +1,56 @@
-📝 Simple Task Manager 
+# 📝 Simple Task Manager
 
-A lightweight, browser-based task manager app built using HTML, CSS, and JavaScript.
-It allows users to add, edit, complete, and delete tasks, with progress tracking and local storage support.
-🚀 Features
+A lightweight, browser-based task managerapp built using HTML, CSS, and JavaScript.  
+It allows users to **add**, **edit**, **complete**, and **delete** tasks, with progress tracking and local storage support.
 
-    ✅ Add new tasks
+---
 
-    🖊 Edit existing tasks
+## 🚀 Features
 
-    ☑ Mark tasks as completed
+- ✅ Add new tasks 
+- 🖊 Edit existing tasks  
+- ☑ Mark tasks as completed  
+- ❌ Delete tasks  
+- 💾 Data persists using `localStorage`  
+- 📊 Dynamic progress bar showing completed/total tasks  
+- 🎨 Simple and responsive UI with clear task states  
 
-    ❌ Delete tasks
+---
 
-    💾 Data persists using localStorage
-
-    📊 Dynamic progress bar showing completed/total tasks
-
-    🎨 Simple and responsive UI with clear task states
-
-📁 Project Structure
+## 📁 Project Structure
 
 Simple-Task-Manager/
-│
-├── Dom.html        # Main HTML structure
-├── Dom.css        # Styling for the app
-└── Dom.js         # Main JavaScript logic
+├── index.html # Main HTML file
+├── styles.css # App styling
+└── script.js # Main JavaScript logic
 
-💻 Usage
 
-    Clone the repo:
+---
 
-    git clone https://github.com/abdi-mangashahun/Simple-Task-Manager.git
+## 💻 How to Use
 
-    Open index.html in your browser.
+1. **Clone the repository:**
 
-    Start managing your tasks!
-    Your tasks are saved automatically in your browser’s local storage.
+git clone https://github.com/abdi-mangashahun/Simple-Task-Manager.git
 
-🧠 How It Works
 
-    Tasks are stored as objects in an array:
+2. **Navigate to the folder and open `index.html` in your browser.**
 
-    { text: "Buy groceries", completed: false }
+3. Start managing your tasks! Your data is saved automatically in your browser's local storage.
 
-    When the page loads, it checks localStorage and loads saved tasks.
+---
 
-    Any action (add/edit/delete/toggle complete) updates the UI and saves changes to localStorage.
+## 🧠 How It Works
 
-🔧 Technologies Used
+- Tasks are stored as objects in an array:
+```js
+{ text: "Buy groceries", completed: false }
+
+    When the page loads, it loads the saved tasks from localStorage.
+
+    All updates (add, edit, complete, delete) are saved back to localStorage.
+
+🔧 Built With
 
     HTML
 
@@ -55,14 +58,18 @@ Simple-Task-Manager/
 
     JavaScript (Vanilla)
 
-    Browser localStorage (no backend)
+    LocalStorage API
 
-📷 Demo Screenshot
+🙌 Credits
 
-(Add a screenshot here if available — e.g., assets/demo.png)
-✨ Credits
-
-Created by Abdi Gashahun
+Built by Abdi Gashahun
 📜 License
 
-This project is open-source and free to use. No license restrictions.
+This project is open-source and free to use.
+
+
+---
+
+✅ Now you can copy and paste this into your `README.md` file and it will display perfectly on GitHub. Let me know if you also want a screenshot section or badges added.
+
+
