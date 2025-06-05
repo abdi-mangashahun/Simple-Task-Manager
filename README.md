@@ -1,5 +1,5 @@
 # 📝 Simple Task Manager
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=netlify)](https://eclectic-cannoli-82a353.netlify.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=netlify)]([https://peppy-croissant-62d1f2.netlify.app/)
 
 A lightweight, browser-based task manager app built using HTML, CSS, and JavaScript.  
 It allows users to **add**, **edit**, **complete**, and **delete** tasks, with progress tracking and local storage support.
