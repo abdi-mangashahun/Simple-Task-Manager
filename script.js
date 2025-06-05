@@ -98,3 +98,4 @@ document.getElementById("newTask").addEventListener("click", function (e) {
   e.preventDefault();
   addTask();
 });
+
