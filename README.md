@@ -36,7 +36,7 @@ Simple-Task-Manager:
 git clone https://github.com/abdi-mangashahun/Simple-Task-Manager.git
 
 
-2. **Navigate to the folder and open `Dom.html` in your browser.**
+2. **Navigate to the folder and open `index.html` in your browser.**
 
 3. Start managing your tasks! Your data is saved automatically in your browser's local storage.
 
